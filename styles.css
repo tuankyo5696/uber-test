@@ -1,0 +1,257 @@
+/* toggle-button */
+/*
+ul.dropdown-menu.show {
+    width: 339px;
+    height: 686px;
+    background-color: #252324;
+    padding-right: 20px;
+    transform: translateX(49px);
+}
+
+.dropdown a {
+    color: white;
+    font-size: 234%;
+    padding-left: 10%;
+    display: block;
+    padding-top: 14%;
+}
+
+.dropdown a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.dropdown a img {
+    width: 45px;
+    height: 45px;
+    color: gray;
+}*/
+
+body {
+    font-size: calc(0.75em + 1vmin);
+  }
+/*Header*/
+section{
+    height: 95vh;
+   
+}
+
+.toggleButton{
+    margin-left:auto; 
+    border:none; 
+    background:transparent;
+    float:right;
+    padding-top:1vh;
+    padding-right:1vw;
+}
+.navbarBar{
+    background-color:white;
+    height: 50px;
+}
+
+/* LOGO */
+
+.logo1 {
+   height: 80%;
+}
+
+img.logo2 {
+    height: 50%;
+ 
+}
+img.intro {
+    width: 180vh;
+    height: 50vh;   
+}
+button.ml-auto {
+    border: none;
+    background: none;
+    margin-top: -5px;
+}
+.row.text {
+    padding-top: 22px;
+}
+
+
+p.register {
+    color: white;
+    font-size: 19px;
+    letter-spacing: -0.9px;
+    transform: translateX(-34px);
+    transform: translateY(-1vh);
+}
+
+img.arrow {
+    height: 4vh;
+    width: 4vh;
+    margin-top: 3vh;
+    transform: translateX(4vw);
+}
+
+.boxContent{
+   display: flex;
+   align-items: center;
+  
+   margin: auto
+}
+.coverRegister{
+    background-color:#fffffff2;
+    display: block;
+}
+/*      
+hr {
+    margin-top: 65px;
+} */
+.footer-container{
+    width: 100%;
+
+    display: flex;
+    align-items: stretch;   
+    flex-direction: row;
+ 
+}
+.row .logo .mt-5{
+
+}
+.text3 {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.3vh;
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 2vh;
+    padding-bottom: 0.7vh;
+}
+/*
+h1.text3 {
+    transform: translateY(-11px);
+    transform: translateX(-40vw)
+}*/
+
+.group1 {
+  flex-grow: 8;
+}
+
+.group2 {
+  
+   margin: auto;
+    flex-grow: 1;
+}
+.input-group-row{
+    display: inline;
+}
+/* Register */
+.input-group{
+    padding-left:2vw;
+}
+.registerBg{
+    background-image: url(img/bg-register.jpg);
+    background-position: center center;
+    height: 84vh;
+    background-size: cover;
+    display: flex
+}
+h3.moving {
+
+    padding: 0 10px;
+    color: #5d5b5b;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 1.2rem;
+  
+}
+button.btn.next {
+    border-radius: 100%;
+    width: 30%;
+    padding: 10px 0;
+    margin-left: 24vw;
+    border-color: gray;
+    border: 2px solid #c5c5c5;
+}
+i.fas.fa-arrow-right {
+    font-size: 4vh;
+    
+}
+.tel{
+    color:gray;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 1em;
+    display: inline-block;
+}
+
+input[type="checkbox"]:checked {
+    border: 2px solid #2c4358;
+  }
+
+  .input-group-text.container {
+    display: flex;
+   
+    background:none; border:none;
+}
+/* Might want to wrap a span around your checkbox text */
+/* .checkboxtext
+{
+    outline: 1px solid #1e5180;
+  font-size: 110%;
+  display: inline;
+} */
+
+.form-checkbox-item:not(#foo) label:before {
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* Input form */
+
+.coverFormInput{
+    box-shadow: 15px 15px 15px rgb(226, 226, 226);  
+}
+
+input[type="text"] {
+
+   
+    font-family: 'Noto Sans HK', sans-serif;
+}
+input.form-control {
+  
+    width: 60%;
+    padding: 10px;
+    border: none;
+    background: #fffffffc;
+ 
+}
+
+.agree {
+    color: gray;
+    display: inline;
+   
+}
+.mr-1{
+    padding-right:0.5vw;
+}
+
+/* Responsive */    
+
+
+/*IP X*/
+/*@media only screen and (device-width : 375px) and (device-height : 812px)  {
+    h3.moving {
+        font-size: 2vh!important
+    }
+    input.form-control {
+    width: 26vmax!important
+    }
+    .text3 {
+        font-size: 0vh;}
+}
+*/
+
+/*Editing*/
+/*Mobile*/ 
+/*Min width*/
+
+@media (min-width: 600px){
+    .Form{
+        width: 400px;
+    }
+}
